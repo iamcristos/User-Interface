@@ -113,7 +113,8 @@ section{
 }
 #innovation{
 	width: 30%;
-	margin: 10px;
+	margin: 40px;
+	padding: 20px;
 	display: inline-block;
 	vertical-align: middle;
 }
