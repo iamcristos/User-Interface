@@ -54,13 +54,155 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+	font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+body{
+	width: 100%;
+	padding: 10px;
+	border: 1px thin white;
+	font-family: 'Nunito', sans-serif;
+}
+h1 {
+	font-family: 'Noto Serif', serif;
+	letter-spacing: 3px;
+	font-weight: bolder;
+	font-size: 30px
+}
+header{
+	display: inline-block;
+	width: 100%;
+	margin: 10px 10px;
+	padding: 10px 20px;
+	vertical-align: middle;
+}
+nav{
+	border: 1px solid lavenderblush;
+	height: 50px;
+	display: inline-block;
+	background-color: lightgoldenrodyellow;
+	position: fixed;
+	z-index: +1;
+	width: 100%;
+	right: 5px;
+	top:0
+}
+
+nav a{
+	color: gray;
+	text-decoration: none;
+	margin: 10px;
+	padding: 10px 50px
+}
+
+header div{
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: middle
+}
+
+section{
+	width: 100%;
+	margin: 10px;
+	padding: 10px 0
+}
+
+#top {
+	display: inline-block;
+	width: 100%;
+	text-align: center
+}
+
+#img-div{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#img-div img{
+	vertical-align: middle;
+	padding: 10px
+}
+
+#innovation{
+	width: 30%;
+	margin: 40px;
+	padding: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#innovation h1 {
+	font-size: 40px;
+	margin: 0
+}
+
+.in{
+	display: inline-block;
+	font-size: 40px;
+	margin: 0 40px;
+	font-family:'Noto Serif', serif;
+}
+
+button{
+	margin: 10px;
+	width: 100px;
+	height: 40px;
+	border-radius: 5%
+}
+
+.left{
+	display: inline-block;
+	width: 50%
+}
+
+section div {
+	display: inline-block;
+	width: 100%;
+	margin: 10px
+}
+
+.right {
+	width: 45%;
+	display: inline-block;
+	margin: 10px;
+}
+
+#services,#product,#vision {
+	width: 30%;
+	display: inline-block;
+}
+section{
+	padding: 10px 40px
+}
+section .middle-img .middle-im{
+	width: 100%
+}
+
+footer{
+	margin: 15px;
+	font-family: sans-serif;
+	padding: 10px 40px
+}
+
+footer h2{
+	font-weight: lighter;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+#p-footer{
+	text-align: center;
+	color: red;
+}
+hr{
+	margin:15px;
+	padding: 0px 40px
+}
+
